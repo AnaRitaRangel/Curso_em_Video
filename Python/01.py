@@ -12,7 +12,7 @@ print(f"Hello, {name}! Nice to meet you!")
 print(name, "is a great person!")
 
 # 2. Ask for month, day and year of birth of the user and print a message with the formatted date
-month = int(input("Type the month you were born: "))
+month = int(input("Type the month you were born (1-12): "))
 day = int(input("Type the day you were born: "))
 year = input("Type the year you were born: ")
 print(name, "was born in ", month, "/", day,"/", year)
